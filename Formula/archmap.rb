@@ -7,22 +7,22 @@ class Archmap < Formula
   on_macos do
     on_arm do
       url "https://github.com/aidarbn/archmap/releases/download/v0.1.0/archmap_v0.1.0_darwin_arm64.tar.gz"
-      sha256 "3cce56fa7fdb7c1616b4dfae05abbcfe602a9e027f224b1ce8b4a6d54692ec9c"
+      sha256 "2f5f5d44c4672f43cbba570bb758d79b44ff2a36f7ef731f400e7958292b7b19"
     end
     on_intel do
       url "https://github.com/aidarbn/archmap/releases/download/v0.1.0/archmap_v0.1.0_darwin_amd64.tar.gz"
-      sha256 "ee3de5689c7623af40eb6284cd5494b830da4a2b108771a8b605e6bc7eccfd1c"
+      sha256 "2300487760260c6b932e5d00ebd0cf236bfd911ef0414e3908b9c60ca8c2a729"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/aidarbn/archmap/releases/download/v0.1.0/archmap_v0.1.0_linux_arm64.tar.gz"
-      sha256 "34149209da558471587ab9f7bab50e861c0a5058c11fc36ede889e6084ec6b64"
+      sha256 "c7c4a496ff5a5009617d093e0e1457d70aeff43b365d2f0ac9cb4454ad221d02"
     end
     on_intel do
       url "https://github.com/aidarbn/archmap/releases/download/v0.1.0/archmap_v0.1.0_linux_amd64.tar.gz"
-      sha256 "ed77649a8a220ab35ff9964efe9c6a557ac8ef5279732b5eb1147d096d1c165a"
+      sha256 "7a125d92b4083bff565da445db1b7f7dc14c000c549d2a091cba631c5459b870"
     end
   end
 
