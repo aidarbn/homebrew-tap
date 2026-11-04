@@ -1,28 +1,28 @@
 class Archmap < Formula
   desc "Interactive function-level architecture map of a repository"
   homepage "https://github.com/aidarbn/archmap"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/aidarbn/archmap/releases/download/v0.2.1/archmap_v0.2.1_darwin_arm64.tar.gz"
-      sha256 "f0521812c921bb7081600b9ab67b94181f8dc0a87b6f981a6fcf7f805b9c490e"
+      url "https://github.com/aidarbn/archmap/releases/download/v0.3.0/archmap_v0.3.0_darwin_arm64.tar.gz"
+      sha256 "f14287f2ac930e28124afb21a8e0a579d6d28ed687843cf739886ad1c030f894"
     end
     on_intel do
-      url "https://github.com/aidarbn/archmap/releases/download/v0.2.1/archmap_v0.2.1_darwin_amd64.tar.gz"
-      sha256 "80718ff4ad9f9d6c8d1e30409c9588651282bef6f782ff1a9ca05367bfb1b6bb"
+      url "https://github.com/aidarbn/archmap/releases/download/v0.3.0/archmap_v0.3.0_darwin_amd64.tar.gz"
+      sha256 "61b185aa2e44afdd3996ef8eaa4a1dac301c361199c92ee21c103b3e12db3cd3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/aidarbn/archmap/releases/download/v0.2.1/archmap_v0.2.1_linux_arm64.tar.gz"
-      sha256 "e069188b28aa3615f20f53166ded08ed5022a140c25e5e5096b497254f3f37fc"
+      url "https://github.com/aidarbn/archmap/releases/download/v0.3.0/archmap_v0.3.0_linux_arm64.tar.gz"
+      sha256 "2880c10ece825cf1046c70346841a9db115148fca52e589d01b68b22d8ea5712"
     end
     on_intel do
-      url "https://github.com/aidarbn/archmap/releases/download/v0.2.1/archmap_v0.2.1_linux_amd64.tar.gz"
-      sha256 "9d99ce243a1a5095ac658a4d8d30e8a8e080fdebb42d4a68264629e22e73d1c7"
+      url "https://github.com/aidarbn/archmap/releases/download/v0.3.0/archmap_v0.3.0_linux_amd64.tar.gz"
+      sha256 "595b3e660f8eb749238a4408478ad7994b0b76574ecb2377e779b7f5879b355f"
     end
   end
 
